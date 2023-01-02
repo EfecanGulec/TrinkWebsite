@@ -1,0 +1,383 @@
+html {
+  background-color: #e8dfd7;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #e8dfd7;
+  padding: 20px 10px;
+  height: 200px;
+
+}
+
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: serif;
+  font-weight: bold;
+}
+
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.header a:hover {
+  background-color: #e8dfd7;
+  color: black;
+}
+
+
+.header a.active {
+  background-color: #e8dfd7;
+  color: black;
+}
+
+
+.header-right {
+  float: right;
+}
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
+
+#text {
+  color: black;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-family: serif;
+  padding-left: 20px;
+}
+
+#indirmeler {
+  padding-left: 50px;
+  display: flex;
+
+}
+
+#headeryazilar {
+  padding-top: 55px;
+}
+
+#whatistrink {
+  height: 420px;
+  background-color: #e8dfd7;
+}
+
+#wtid {
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: xx-large;
+  font-family: serif;
+
+  font-weight: bold;
+}
+
+#paragrafwt {
+  align-items: center;
+  justify-content: center;
+  display: block;
+  color: black;
+  font-size: 32px;
+  font-family: serif;
+}
+
+.taste {
+  background-color: #e8dfd7;
+}
+
+.row {
+  height: 402px;
+}
+
+#baslik {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+}
+
+.howtouse {
+  background-color: #e8dfd7;
+  color: black;
+}
+
+#baslik2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+}
+
+#yazi1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 32px;
+  font-family: serif;
+}
+
+#baslik3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+
+}
+
+#yazi2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 32px;
+  font-family: serif;
+}
+
+#baslik4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+
+}
+
+#yazi3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 32px;
+  font-family: serif;
+}
+
+#baslik5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+}
+
+#yazi4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 32px;
+  font-family: serif;
+}
+
+#passion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: serif;
+  padding-top: 45px;
+  padding-right: 45px;
+  font-weight: bold;
+}
+
+#text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 32px;
+  font-family: serif;
+}
+
+.searchbardiv {
+  height: 273px;
+  background-color: #e8dfd7;
+}
+
+.helpdivi {
+  height: 387px;
+  background-color: #e8dfd7;
+}
+
+#baslik6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  color: black;
+
+  font-weight: bold;
+}
+
+.sondiv {
+  height: 384px;
+  background-color: #e8dfd7;
+}
+
+#sonpar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: black;
+
+}
+
+#emailadresi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  color: black;
+
+}
+
+#whatsapp2 {
+  height: 500px;
+  width: 750px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+#whatsapp4 {
+  width: 500px;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+#logomuz {
+  width: 150px;
+  height: 145px;
+}
+
+#htlogo1 {
+  display: block;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 150px;
+}
+
+#htlogo2 {
+  height: 200px;
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+
+#ios {
+  width: 141px;
+  height: 52px;
+}
+
+#google {
+  width: 141px;
+  height: 52px;
+
+}
+
+#a {
+  font-size: 32px;
+  font-family: serif;
+  color: black;
+  font-weight: bold;
+}
+
+#b {
+  font-size: 32px;
+  font-family: serif;
+  color: black;
+  font-weight: bold;
+}
+
+#c {
+  font-size: 32px;
+  font-family: serif;
+  color: black;
+  font-weight: bold;
+}
+
+#ikon2 {
+  display: block;
+}
+
+#ikon1 {
+  display: block;
+}
+
+#ikon3 {
+
+  display: block;
+}
+
+#eposta {
+  color: black;
+  font-weight: 200;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#idsearchbar {
+  background-color: #e8dfd7;
+  height: 273px;
+  justify-content: center;
+  align-items: center;
+}
+
+#cityfinder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 500px;
+  background-color: #804C20;
+
+}
+
+#yazi11 {
+  padding-left: 600px;
+  padding-top: 40px;
+  color: black;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#inputdivi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background-color: #e8dfd7;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+
+    input[type=submit] {
+      background-color: #e8dfd7;
+      color: brown;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    input[type=submit]:hover {
+      background-color: #e06f12;
+    }
+
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    #baslik {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: xx-large;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h3 id="baslik">BECOME A TRINK POINT</h3>
+
+  <div class="container">
+    <form action="/action_page.php">
+      <label for="name">Name</label>
+      <input type="text" id="fname" name="name" placeholder="Your name..">
+
+      <label for="E-Mail">E-Mail</label>
+      <input type="text" id="email" name="email" placeholder="Your E-Mail">
+
+
+      <label for="opinion">Opinion</label>
+      <textarea id="opinion" name="opinion" placeholder="Please write your opinions about Trink"
+        style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+</body>
+
+</html>
